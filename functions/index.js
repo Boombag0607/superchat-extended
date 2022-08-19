@@ -9,6 +9,11 @@ const functions = require("firebase-functions");
 // });
 
 const Filter = require("bad-words");
+const twilio = require('twilio');
+const accountSid = functions.config().twilio.sid;
+const authToken = functions.config().twilio.token;
+
+const client = new twilio(accountSid, authToken);
 
 const admin = require("firebase-admin");
 admin.initializeApp();
