@@ -68,6 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
-## A Chat interface made using React and Firebase 
-Full-stack Chat demo by Fireship.io
-[]Live Demo
+## Geo-anonymous-message
+[In progress] I am trying to make a chat web app which notifies users when they are in one mile radius of each other and connects them based on their acceptance. 
+Makes use of firebase, react and twilio
